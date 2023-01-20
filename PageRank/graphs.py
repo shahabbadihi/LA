@@ -37,6 +37,7 @@ class plotGraph:
         heapq._heapify_max(heaped_ranks)
         topK = [heapq._heappop_max(heaped_ranks)
             for _ in range(number_of_nodes)]
+        print(topK)
         return topK
 
 
